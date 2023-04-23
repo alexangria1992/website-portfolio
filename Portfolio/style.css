@@ -54,6 +54,13 @@ body {
   opacity: 0;
 }
 
+.overlay ion-icon {
+  position: fixed;
+  right: 0;
+  margin: 2em;
+  color: white;
+}
+
 .overlay ul {
   position: absolute;
   top: 50%;
@@ -149,6 +156,15 @@ body {
   font-weight: lighter;
   text-transform: uppercase;
   color: white;
+  display: inline-block;
+}
+
+.hero-title-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @media (max-width: 900px) {
