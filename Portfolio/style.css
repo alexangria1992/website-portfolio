@@ -202,6 +202,7 @@ body {
   text-decoration: none;
   color: white;
   background: black;
+  transition: 0.6s ease;
 }
 
 /* PROJECTS SECTION */
@@ -245,6 +246,8 @@ body {
 .project {
   border: 1px solid pink;
   /* position: relative; */
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .content {
@@ -320,4 +323,47 @@ body {
   top: 43px;
 
   /* width: 100%; */
+}
+
+/* SOCIAL MEDIA SECTION */
+
+.social-media {
+  padding: 0 0;
+  margin-top: 120px;
+}
+
+.social-media h1 {
+  font-size: 84px;
+  font-family: "Times New Roman";
+  text-transform: uppercase;
+}
+
+.social-media h3 {
+  font-family: Helvetica;
+  padding: 8px 0;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.social-icons ul {
+  margin: 80px 0 !important;
+  padding: 0 !important;
+}
+
+.social-icons ul li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 40px;
+}
+
+.social-icons ul li a {
+  color: black;
+  font-style: italic;
+  font-family: "Cormorant";
 }
