@@ -46,9 +46,9 @@ body {
 
 .overlay {
   border: 1px solid plum;
-  position: fixed;
+  position: sticky;
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   background: #0f0f0f;
   z-index: 1;
   opacity: 0;
@@ -255,7 +255,7 @@ body {
   width: 100%;
   object-fit: cover;
   margin: auto;
-  height: 50vh;
+  height: 100vh;
   display: block;
 }
 
