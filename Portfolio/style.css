@@ -14,7 +14,7 @@ body {
 /* HERO SECTION  */
 
 .hero-section {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: 0;
   padding: 0;
   width: 100%;
@@ -45,7 +45,7 @@ body {
 }
 
 .overlay {
-  border: 1px solid plum;
+  /* border: 1px solid plum; */
   position: sticky;
   width: 100%;
   height: 85vh;
@@ -94,7 +94,7 @@ body {
 
 .media {
   position: absolute;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   right: 0;
   bottom: 0;
   margin: 2em;
@@ -185,7 +185,7 @@ body {
 /* ABOUT SECTION */
 
 .about-section {
-  border: 1px solid royalblue;
+  /* border: 1px solid royalblue; */
   padding: 120px 0;
 }
 
@@ -227,7 +227,7 @@ body {
   background: #0f0f0f;
   padding-top: 120px;
   overflow: hidden;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
 
 .project-section h1 {
@@ -238,7 +238,7 @@ body {
 }
 
 .project-section p {
-  color: grey;
+  color: white;
   width: 100%;
 }
 
@@ -257,10 +257,11 @@ body {
   margin: auto;
   height: 100vh;
   display: block;
+  /* filter: grayscale(); */
 }
 
 .project {
-  border: 1px solid pink;
+  border: 1px solid black;
   /* position: relative; */
   margin: 0 !important;
   padding: 0 !important;
@@ -329,6 +330,16 @@ body {
   margin-top: 50px;
   justify-content: center;
   align-items: center;
+}
+
+.tech-text {
+  text-align: center;
+  color: red;
+}
+
+.icons-section img {
+  width: 30px;
+  height: 30px;
 }
 
 .project-section .card-content-text {
